@@ -1,0 +1,1129 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="slick-1.8.1/slick/slick-theme.css">
+    <link rel="stylesheet" href="slick-1.8.1/slick/slick.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+    <title></title>
+    <script src="js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+   </script>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__box">
+                <a href="#" class="header__logo">
+                    <img src="img/logo.svg" alt="">
+                </a>
+                <button class="header__burgir">
+                    <span></span><span></span><span></span>
+                </button>
+                <div class="header__navbar">
+                    <ul class="ul">
+                        <li class="li">
+                            <a href="#company" class="item">О компании</a>
+                        </li>
+                        <li class="li">
+                            <a href="#services" class="item">Услуги и цены</a>
+                        </li>
+                        <li class="li">
+                            <a href="#card" class="item">Кейсы</a>
+                        </li>
+                        <li class="li">
+                            <a href="#contacts" class="item">Контакты</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="header__soc">
+                    <a href="#" class="item">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="15" height="9" viewBox="0 0 15 9" fill="none">
+                            <path d="M12.4469 5.23302C12.2044 4.92676 12.2737 4.79051 12.4469 4.51677C12.45 4.51364 14.4519 1.74739 14.6581 0.809265L14.6594 0.80864C14.7619 0.466765 14.6594 0.215515 14.1637 0.215515H12.5237C12.1062 0.215515 11.9137 0.43114 11.8106 0.67239C11.8106 0.67239 10.9756 2.67114 9.79437 3.96676C9.41312 4.34114 9.23687 4.46114 9.02875 4.46114C8.92625 4.46114 8.76687 4.34114 8.76687 3.99927V0.80864C8.76687 0.39864 8.65 0.215515 8.30437 0.215515H5.72562C5.46375 0.215515 5.30812 0.406765 5.30812 0.58489C5.30812 0.97364 5.89875 1.06302 5.96 2.15677V4.52989C5.96 5.04989 5.86562 5.14551 5.65625 5.14551C5.09875 5.14551 3.74562 3.13864 2.94375 0.841765C2.78187 0.39614 2.62375 0.21614 2.20312 0.21614H0.5625C0.094375 0.21614 0 0.431765 0 0.673015C0 1.09927 0.5575 3.21864 2.5925 6.01864C3.94875 7.92989 5.85875 8.96552 7.59625 8.96552C8.64062 8.96552 8.76812 8.73552 8.76812 8.33989C8.76812 6.51364 8.67375 6.34114 9.19687 6.34114C9.43937 6.34114 9.85687 6.46114 10.8319 7.38302C11.9462 8.47614 12.1294 8.96552 12.7531 8.96552H14.3931C14.8606 8.96552 15.0975 8.73552 14.9612 8.28176C14.6494 7.32739 12.5419 5.36426 12.4469 5.23302Z" fill="white"/>
+                        </svg>
+                    </a>
+                    <a href="#" class="item">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                            <path d="M5.49036 16.3848L6.17816 16.7867C7.33805 17.4631 8.65727 17.8183 10 17.8155C11.5031 17.8155 12.9725 17.3698 14.2223 16.5347C15.4721 15.6996 16.4463 14.5126 17.0215 13.1239C17.5967 11.7352 17.7472 10.2071 17.454 8.73282C17.1607 7.25857 16.4369 5.90438 15.374 4.8415C14.3111 3.77862 12.9569 3.05479 11.4827 2.76155C10.0084 2.4683 8.48033 2.6188 7.09161 3.19403C5.7029 3.76925 4.51594 4.74337 3.68084 5.99318C2.84574 7.24299 2.40001 8.71237 2.40001 10.2155C2.40001 11.5797 2.75816 12.8879 3.42981 14.0383L3.83071 14.7261L3.21036 17.0071L5.49036 16.3848ZM0.503813 19.7155L1.78821 14.9959C0.941893 13.5451 0.497254 11.8951 0.500013 10.2155C0.500013 4.96866 4.75316 0.715515 10 0.715515C15.2469 0.715515 19.5 4.96866 19.5 10.2155C19.5 15.4624 15.2469 19.7155 10 19.7155C8.32115 19.7182 6.67183 19.2739 5.22151 18.4283L0.503813 19.7155ZM6.57146 5.75811C6.69876 5.74861 6.82701 5.74861 6.95431 5.75431C7.00561 5.75811 7.05691 5.76381 7.10821 5.76951C7.25926 5.78661 7.42551 5.87876 7.48156 6.00606C7.76466 6.64826 8.04016 7.29521 8.30616 7.94406C8.36506 8.08846 8.32991 8.27371 8.21781 8.45421C8.14071 8.57626 8.05732 8.69422 7.96796 8.80761C7.86061 8.94536 7.62976 9.19806 7.62976 9.19806C7.62976 9.19806 7.53571 9.31016 7.57181 9.44981C7.58511 9.50301 7.62881 9.57996 7.66871 9.64456L7.72476 9.73481C7.96796 10.1405 8.29476 10.5518 8.69376 10.9394C8.80776 11.0496 8.91891 11.1627 9.03861 11.2681C9.48321 11.6605 9.98671 11.9806 10.5301 12.2181L10.5349 12.22C10.6156 12.2552 10.6565 12.2742 10.7743 12.3245C10.8332 12.3492 10.894 12.3711 10.9557 12.3872C11.0195 12.4035 11.0867 12.4004 11.1488 12.3784C11.2109 12.3564 11.265 12.3165 11.3044 12.2637C11.9922 11.4306 12.0549 11.3764 12.0606 11.3764V11.3783C12.1083 11.3337 12.1651 11.2999 12.227 11.2791C12.289 11.2583 12.3547 11.251 12.4197 11.2577C12.4767 11.2615 12.5346 11.2719 12.5878 11.2957C13.0923 11.5265 13.9178 11.8866 13.9178 11.8866L14.4707 12.1345C14.5638 12.1792 14.6484 12.2846 14.6512 12.3863C14.655 12.4499 14.6607 12.5525 14.6389 12.7406C14.6085 12.9867 14.5344 13.2821 14.4603 13.437C14.4095 13.5426 14.3422 13.6395 14.2608 13.7239C14.1649 13.8245 14.0599 13.9161 13.9473 13.9975C13.9083 14.0268 13.8687 14.0553 13.8285 14.083C13.7103 14.1579 13.5889 14.2277 13.4647 14.292C13.2201 14.4219 12.9499 14.4965 12.6733 14.5105C12.4976 14.52 12.3218 14.5333 12.1451 14.5238C12.1375 14.5238 11.6055 14.4411 11.6055 14.4411C10.2548 14.0858 9.00573 13.4203 7.95751 12.4974C7.74281 12.3084 7.54426 12.1051 7.34096 11.9027C6.49546 11.062 5.85706 10.1547 5.46946 9.29781C5.27107 8.87723 5.16391 8.41944 5.15501 7.95451C5.15109 7.37772 5.33964 6.81609 5.69081 6.35851C5.76016 6.26921 5.82571 6.17611 5.93876 6.06876C6.05941 5.95476 6.13541 5.89396 6.21806 5.85216C6.32795 5.79709 6.44783 5.76478 6.57051 5.75716L6.57146 5.75811Z" fill="white"/>
+                        </svg>
+                    </a>
+                    <a href="#" class="item">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="17" height="15" viewBox="0 0 17 15" fill="none">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M14.4451 0.35265C13.8388 0.610518 7.00472 3.60068 1.4382 6.0239C0.99737 6.22995 0.723405 6.63867 0.725667 7.04586C0.727929 7.45304 1.0611 7.75659 1.4481 7.80534C1.77986 7.8544 5.09714 8.29407 5.09714 8.29407L6.0646 13.3787L6.54936 11.1364L5.81251 7.78109L12.527 3.1628L7.03357 8.79231L8.97847 10.8175C9.08953 10.9187 11.4792 13.4504 11.6458 13.6022C11.9235 13.8551 12.3683 14.3617 12.5892 14.3604C12.976 14.3583 13.3598 13.8471 13.5213 13.0827C13.6831 12.3693 14.7606 7.42598 16.1053 0.852424C16.267 0.138927 15.5471 -0.162472 14.4451 0.35265Z" fill="white"/>
+                        </svg>
+                    </a>
+                </div>
+                <a href="tel:7 913 777 45 77" class="header__phone">7 913 777 45 77</a>
+            </div>
+        </div>
+    </header>
+    <!-- modal -->
+    <div class="modal">
+        <div class="modal__block">
+            <button class="close"></button>
+            <p class="title">Заказать аудит компании</p>
+            <div class="input">
+                <input type="text" placeholder="Имя">
+            </div>
+            <div class="input">
+                <input type="email" placeholder="Email">
+            </div>
+            <div class="input">
+                <input type="text" placeholder="+7 (___) ___ __ __" class="input_phone tel">
+            </div>
+            <button class="banner__btn">Заказать</button>
+        </div>
+    </div>
+
+    <main class="main">
+        <section class="banner">
+            <div class="banner__mobile">
+                <img src="img/banner-mobile.png" alt="">
+            </div>
+            <div class="banner__left">
+                <img src="img/banner-left.png" alt="">
+            </div>
+            <div class="banner__right">
+                <img src="img/banner-right.png" alt="">
+            </div>
+            <div class="container">
+                <div class="banner__box">
+                    <div class="banner__content">
+                        <p class="banner__h1 wow fadeInUp" data-wow-duration="1s" data-wow-delay="1.2s">Создание идеальной репутации вашей компании в короткие сроки по выгодным тарифам SERM</p>
+                        <div class="banner__text wow fadeInUp" data-wow-duration="1s" data-wow-delay="2s">
+                            <div class="borders">
+                                <span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 10 10" fill="none">
+                                        <circle cx="5" cy="5" r="4.5" stroke="url(#paint0_linear_111_33)"/>
+                                        <defs>
+                                        <linearGradient id="paint0_linear_111_33" x1="0" y1="0" x2="10" y2="6" gradientUnits="userSpaceOnUse">
+                                        <stop stop-color="#1B935A" stop-opacity="0.5"/>
+                                        <stop offset="1" stop-color="#1B935A" stop-opacity="0"/>
+                                        </linearGradient>
+                                        </defs>
+                                    </svg>
+                                </span>
+                                <span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 10 10" fill="none">
+                                        <circle cx="5" cy="5" r="4.5" stroke="url(#paint0_linear_111_32)"/>
+                                        <defs>
+                                        <linearGradient id="paint0_linear_111_32" x1="1" y1="1.5" x2="10" y2="9" gradientUnits="userSpaceOnUse">
+                                        <stop stop-color="#1B935A"/>
+                                        <stop offset="1" stop-color="#1B935A" stop-opacity="0"/>
+                                        </linearGradient>
+                                        </defs>
+                                    </svg>
+                                </span>
+                                <span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 10 10" fill="none">
+                                        <circle cx="5" cy="5" r="4.5" stroke="#1B935A"/>
+                                    </svg>
+                                </span>
+                            </div>
+                            <p>Ваша репутация – то, что говорят у Вас за спиной. С ReTop говорить будут только хорошее</p>
+                        </div>
+                        <div class="banner__btn_fixed">
+                            <button class="banner__btn wow fadeInUp open-modal" data-wow-duration="1s" data-wow-delay="2.8s">Заказать бесплатный аудит компании</button>
+                        </div>
+                    </div>
+                    <div class="banner__img wow fadeIn" data-wow-duration="1s" data-wow-delay="1s">
+                        <img src="img/star-1.svg" alt="" class="star1">
+                        <img src="img/star-1.svg" alt="" class="star2">
+                        <img src="img/star-2.svg" alt="" class="star3">
+                        <img class="man" src="img/man.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="our_services">
+            <img src="img/star-1.svg" alt="" class="star4">
+            <div class="container wow fadeIn" data-wow-duration="1s" data-wow-delay="0.5s">
+                <div class="title_h2">
+                    <p class="h2">Когда нужны услуги репутационной компании?</p>
+                </div>
+                <div class="our_services__box">
+                    <div class="our_services__block">
+                        <div class="icon">
+                            <svg width="32" height="24" viewBox="0 0 32 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M27.5024 23.5L24.0542 19.8474H17.5024C14.8423 19.8474 12.7241 17.7532 12.7241 15.1234V11.7143C12.7241 9.08439 14.8423 6.99023 17.5024 6.99023H26.2217C28.8818 6.99023 31 9.08439 31 11.7143V15.1234C31 17.1688 29.6699 18.9221 27.8473 19.5552C27.6502 20.8701 27.5024 23.5 27.5024 23.5Z" stroke="#1B935A" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M19.2759 7.03896V5.72403C19.2759 3.09416 17.1576 1 14.4975 1H5.77832C3.11823 1 1 3.09416 1 5.72403V9.13312C1 11.1786 2.33005 12.9318 4.15271 13.5649C4.34975 14.8312 4.49754 17.461 4.49754 17.461L7.94581 13.8084H12.6749" stroke="#1B935A" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M4.8916 4.11688H15.4335" stroke="#1B935A" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M4.8916 7.37988H15.532" stroke="#1B935A" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M4.8916 10.4967H12.7734" stroke="#1B935A" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M19.4727 11.276L24.251 16" stroke="#1B935A" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M24.251 11.276L19.4727 16" stroke="#1B935A" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+                        <p class="title">Вас беспокоят негативные отзывы в сети</p>
+                    </div>
+                    <div class="our_services__block">
+                        <div class="icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="31" viewBox="0 0 28 31" fill="none">
+                                <rect x="0.5" y="0.5" width="26.75" height="26.6923" rx="13.3462" stroke="#1B935A"/>
+                                <path d="M21.75 24.75L26.9792 30" stroke="#1B935A"/>
+                            </svg>
+                        </div>
+                        <p class="title">О вас сложно найти информацию</p>
+                    </div>
+                    <div class="our_services__block">
+                        <div class="icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none">
+                                <path d="M28.1457 24.8677H3.79352C2.2753 24.8677 1 23.6653 1 22.1022V3.76553C1 2.26252 2.21457 1 3.79352 1H28.2065C29.7247 1 31 2.2024 31 3.76553V22.1623C30.9393 23.6653 29.664 24.8677 28.1457 24.8677Z" stroke="#1B935A" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M7.74068 15.7896C8.81395 15.7896 9.684 14.9283 9.684 13.8657C9.684 12.8032 8.81395 11.9419 7.74068 11.9419C6.66742 11.9419 5.79736 12.8032 5.79736 13.8657C5.79736 14.9283 6.66742 15.7896 7.74068 15.7896Z" stroke="#1B935A" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M12.9633 9.23649C14.0366 9.23649 14.9067 8.37515 14.9067 7.31264C14.9067 6.25013 14.0366 5.38879 12.9633 5.38879C11.8901 5.38879 11.02 6.25013 11.02 7.31264C11.02 8.37515 11.8901 9.23649 12.9633 9.23649Z" stroke="#1B935A" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M19.5224 17.0521C20.5957 17.0521 21.4657 16.1908 21.4657 15.1283C21.4657 14.0657 20.5957 13.2044 19.5224 13.2044C18.4492 13.2044 17.5791 14.0657 17.5791 15.1283C17.5791 16.1908 18.4492 17.0521 19.5224 17.0521Z" stroke="#1B935A" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M24.2592 6.89182C25.3325 6.89182 26.2026 6.03049 26.2026 4.96798C26.2026 3.90546 25.3325 3.04413 24.2592 3.04413C23.186 3.04413 22.3159 3.90546 22.3159 4.96798C22.3159 6.03049 23.186 6.89182 24.2592 6.89182Z" stroke="#1B935A" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M9 12L11.5 9" stroke="#1B935A" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M18.3684 13.5651L14.5 9" stroke="#1B935A" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M20.3726 13.3848L23.5001 7" stroke="#1B935A" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M1 18.8557H30.9393" stroke="#1B935A" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M13.0244 24.8677L10.413 29.2565C9.98794 30.0381 10.5345 31 11.3847 31H20.5547C21.4657 31 22.0122 30.0381 21.5264 29.2565L18.9758 24.9279" stroke="#1B935A" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+                        <p class="title">Интересуют новые каналы продвижения</p>
+                    </div>
+                    <div class="our_services__block">
+                        <div class="icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none">
+                                <path d="M2.40635 22.3498C1.50406 20.4215 1 18.2696 1 16C1 7.71573 7.71573 1 16 1C24.2843 1 31 7.71573 31 16C31 24.2843 24.2843 31 16 31C12.5691 31 9.40732 29.8482 6.88012 27.9101" stroke="#1B935A" stroke-linecap="round"/>
+                                <path d="M16 8.22223V17.1111" stroke="#1B935A" stroke-linecap="round"/>
+                                <path d="M16 22.1111V23.2222" stroke="#1B935A" stroke-linecap="round"/>
+                            </svg>
+                        </div>
+                        <p class="title">Столкнулись с клеветой</p>
+                    </div>
+                    <div class="our_services__block">
+                        <div class="icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="33" height="32" viewBox="0 0 33 32" fill="none">
+                                <path d="M1.5 1C1.5 0.723858 1.27614 0.5 1 0.5C0.723858 0.5 0.5 0.723858 0.5 1H1.5ZM1 26.2273H0.5C0.5 26.5034 0.723858 26.7273 1 26.7273V26.2273ZM31 26.2273H31.5C31.5 25.9511 31.2761 25.7273 31 25.7273V26.2273ZM31 31V31.5C31.2761 31.5 31.5 31.2761 31.5 31H31ZM1 30.5C0.723858 30.5 0.5 30.7239 0.5 31C0.5 31.2761 0.723858 31.5 1 31.5V30.5ZM0.5 1V26.2273H1.5V1H0.5ZM1 26.7273H31V25.7273H1V26.7273ZM30.5 26.2273V31H31.5V26.2273H30.5ZM31 30.5H1V31.5H31V30.5Z" fill="#1B935A"/>
+                                <path d="M7 26.2272V18.7272" stroke="#1B935A" stroke-linecap="round"/>
+                                <path d="M20.3335 26.2273V20.0909" stroke="#1B935A" stroke-linecap="round"/>
+                                <path d="M13.6665 26.2273V15.3182" stroke="#1B935A" stroke-linecap="round"/>
+                                <path d="M25.6665 26.2273V16.6818" stroke="#1B935A" stroke-linecap="round"/>
+                                <path d="M0.642497 14.9686C0.449441 15.1661 0.452998 15.4826 0.650441 15.6757C0.847885 15.8687 1.16445 15.8652 1.3575 15.6677L0.642497 14.9686ZM5 11.2273L5.3575 10.8777C5.26343 10.7815 5.13456 10.7273 5 10.7273C4.86544 10.7273 4.73657 10.7815 4.6425 10.8777L5 11.2273ZM7.66667 13.9545L7.30916 14.3041C7.40323 14.4003 7.53211 14.4545 7.66667 14.4545C7.80122 14.4545 7.9301 14.4003 8.02417 14.3041L7.66667 13.9545ZM13 8.5L13.3575 8.15044C13.2634 8.05423 13.1346 8 13 8C12.8654 8 12.7366 8.05423 12.6425 8.15044L13 8.5ZM20.3333 16L19.9758 16.3496C20.0794 16.4555 20.2246 16.51 20.3723 16.4985C20.52 16.4869 20.655 16.4105 20.7408 16.2898L20.3333 16ZM31.493 0.916762C31.4471 0.644473 31.1891 0.461006 30.9168 0.506977L26.4796 1.25612C26.2073 1.30209 26.0238 1.56009 26.0698 1.83238C26.1157 2.10467 26.3737 2.28813 26.646 2.24216L30.5902 1.57626L31.2561 5.52044C31.3021 5.79273 31.5601 5.9762 31.8324 5.93023C32.1047 5.88426 32.2881 5.62626 32.2422 5.35397L31.493 0.916762ZM1.3575 15.6677L5.3575 11.5768L4.6425 10.8777L0.642497 14.9686L1.3575 15.6677ZM4.6425 11.5768L7.30916 14.3041L8.02417 13.605L5.3575 10.8777L4.6425 11.5768ZM8.02417 14.3041L13.3575 8.84956L12.6425 8.15044L7.30916 13.605L8.02417 14.3041ZM12.6425 8.84956L19.9758 16.3496L20.6908 15.6504L13.3575 8.15044L12.6425 8.84956ZM20.7408 16.2898L31.4075 1.28976L30.5925 0.710238L19.9259 15.7102L20.7408 16.2898Z" fill="#1B935A"/>
+                            </svg>
+                        </div>
+                        <p class="title">Выводите новый продукт на рынок</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="company" id="company">
+            <img src="img/schedule.png" alt="" class="schedule wow fadeIn" data-wow-duration="1s" data-wow-delay="2s">
+            <div class="container wow fadeIn" data-wow-duration="1s" data-wow-delay="0.5s">
+                <div class="title_h2">
+                    <p class="h2">О компании</p>
+                </div>
+                <div class="company__box">
+                    <img src="img/company-left.png" alt="" class="left">
+                    <img src="img/company-right.png" alt="" class="right">
+                    <p class="company__text">Агентство ReTop Lab – это комплексное управление репутацией в Интернете: от SERM до лидогенерации. Мы не используем стандартные маркетинговые шаблоны: для каждой компании разрабатывается индивидуальная стратегия, что позволяет добиться максимальных результатов.</p>
+                    <p class="company__text">Постоянное обучение, тестирование новых алгоритмов, актуальная экспертиза – все это позволят грамотно подойти к трансформации Вашего образа в сети и привлечь реальных людей на ваш сайт. Мы точно знаем, как превратить простого пользователя в Вашего клиента!</p>
+                    <p class="company__text">В рамках управления репутацией ReTop работает со всеми площадками отзовиков, с поисковой выдачей Яндекс и Google, а также продвижением на маркетплейсах.</p>
+                    <p class="company__h5">За время работы мы достигли большихвысот, и не собираемся останавливаться на этом!</p>
+                </div>
+            </div>
+        </section>
+        <section class="number">
+            <div class="container wow fadeIn" data-wow-duration="1s" data-wow-delay="0.5s">
+                <div class="number__box">
+                    <img src="img/star-2.svg" alt="" class="star5">
+                    <img src="img/star-1.svg" alt="" class="star6">
+                    <div class="number__block">
+                        <p class="h5"><span>с</span> 2017 <span>года</span></p>
+                        <p class="text">на рынке SERM-услуг</p>
+                    </div>
+                    <div class="number__block">
+                        <p class="h5">200+</p>
+                        <p class="text">успешных проектов</p>
+                    </div>
+                    <div class="number__block big">
+                        <p class="h5">1 000 000+</p>
+                        <p class="text">привели на сайты клиентов за минувший год</p>
+                    </div>
+                </div>
+                <div class="number__btn">
+                    <button class="banner__btn">Скачать презентацию</button>
+                </div>
+            </div>
+        </section>
+        <section class="clients">
+            <div class="wow fadeIn" data-wow-duration="1s" data-wow-delay="0.5s">
+                <div class="title_h2">
+                    <p class="h2"> С нами уже работают</p>
+                </div>
+                <div class="clients__wrap">
+                    <div class="clients__slider">
+                        <div class="wrap">
+                            <div class="clients__block">
+                                <img src="img/1.png" alt="">
+                            </div>
+                        </div>
+                        <div class="wrap">
+                            <div class="clients__block">
+                                <img src="img/2.png" alt="">
+                            </div>
+                        </div>
+                        <div class="wrap">
+                            <div class="clients__block">
+                                <img src="img/3.png" alt="">
+                            </div>
+                        </div>
+                        <div class="wrap">
+                            <div class="clients__block">
+                                <img src="img/4.png" alt="">
+                            </div>
+                        </div>
+                        <div class="wrap">
+                            <div class="clients__block">
+                                <img src="img/5.png" alt="">
+                            </div>
+                        </div>
+                        <div class="wrap">
+                            <div class="clients__block">
+                                <img src="img/6.png" alt="">
+                            </div>
+                        </div>
+                        <div class="wrap">
+                            <div class="clients__block">
+                                <img src="img/7.png" alt="">
+                            </div>
+                        </div>
+                        <div class="wrap">
+                            <div class="clients__block">
+                                <img src="img/8.png" alt="">
+                            </div>
+                        </div>
+                        <div class="wrap">
+                            <div class="clients__block">
+                                <img src="img/9.png" alt="">
+                            </div>
+                        </div>
+                        <div class="wrap">
+                            <div class="clients__block">
+                                <img src="img/10.png" alt="">
+                            </div>
+                        </div>
+                        <div class="wrap">
+                            <div class="clients__block">
+                                <img src="img/11.png" alt="">
+                            </div>
+                        </div>
+                        <div class="wrap">
+                            <div class="clients__block">
+                                <img src="img/12.png" alt="">
+                            </div>
+                        </div>
+                        <div class="wrap">
+                            <div class="clients__block">
+                                <img src="img/13.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="top_line">
+            <img src="img/top-line.png" alt="" class="desktop">
+            <img src="img/top-line-mobile.png" alt="" class="mobile">
+        </div>
+        <section class="we_offer wow fadeIn" data-wow-duration="1s" data-wow-delay="0.5s" id="services">
+            <div class="title_h2">
+                <p class="h2">Мы предлагаем</p>
+            </div>
+            <div class="we_offer__wrap">
+                <div class="we_offer__slider">
+                    <div class="wrap">
+                        <a href="#" class="we_offer__block">
+                            <div class="img">
+                                <img src="img/img.png" alt="">
+                            </div>
+                            <div class="content">
+                                <p class="title">Таб SERM</p>
+                                <p class="text">Как избавиться от негативных отзывов, фото- и видеоматериалов в поисковых системах? Вытеснить их с помощью SERM (Search Engine Reputation Management)! Наше агентство поможет нарастить положительные и/или нейтральные упоминания на форумах, отзовиках и прочих сервисах, чтобы вывести Ваш сайт в ТОП-выдачу Яндекс и Google.</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="wrap">
+                        <a href="#" class="we_offer__block">
+                            <div class="img">
+                                <img src="img/img.png" alt="">
+                            </div>
+                            <div class="content">
+                                <p class="title">Таб ORM</p>
+                                <p class="text">Как избавиться от негативных отзывов, фото- и видеоматериалов в поисковых системах? Вытеснить их с помощью SERM (Search Engine Reputation Management)! Наше агентство поможет нарастить положительные и/или нейтральные упоминания на форумах, отзовиках и прочих сервисах, чтобы вывести Ваш сайт в ТОП-выдачу Яндекс и Google.</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="wrap">
+                        <a href="#" class="we_offer__block">
+                            <div class="img">
+                                <img src="img/img.png" alt="">
+                            </div>
+                            <div class="content">
+                                <p class="title">Таб Аналитика</p>
+                                <p class="text">Как избавиться от негативных отзывов, фото- и видеоматериалов в поисковых системах? Вытеснить их с помощью SERM (Search Engine Reputation Management)! Наше агентство поможет нарастить положительные и/или нейтральные упоминания на форумах, отзовиках и прочих сервисах, чтобы вывести Ваш сайт в ТОП-выдачу Яндекс и Google.</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="wrap">
+                        <a href="#" class="we_offer__block">
+                            <div class="img">
+                                <img src="img/img.png" alt="">
+                            </div>
+                            <div class="content">
+                                <p class="title">Таб Мониторинг</p>
+                                <p class="text">Как избавиться от негативных отзывов, фото- и видеоматериалов в поисковых системах? Вытеснить их с помощью SERM (Search Engine Reputation Management)! Наше агентство поможет нарастить положительные и/или нейтральные упоминания на форумах, отзовиках и прочих сервисах, чтобы вывести Ваш сайт в ТОП-выдачу Яндекс и Google.</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="yandex_map">
+            <img src="img/star-3.svg" alt="" class="star7 wow fadeInUp" data-wow-duration="1s" data-wow-delay="1.2s">
+            <img src="img/star-2.svg" alt="" class="star8 wow fadeInUp" data-wow-duration="1s" data-wow-delay="1.4s">
+            <img src="img/star-1.svg" alt="" class="star9 wow fadeInUp" data-wow-duration="1s" data-wow-delay="1s">
+            <div class="container wow fadeIn" data-wow-duration="1s" data-wow-delay="0.5s">
+                <div class="title_h2">
+                    <p class="h2">Сравните две компании с разным рейтингом на яндекс картах</p>
+                </div>
+                <p class="yandex_map__text">Куда бы вы пошли пошли делать стрижку?</p>
+                <div class="yandex_map__wrap">
+                    <img src="img/scales.svg" alt="" class="scales">
+                    <img src="img/screen1.png" alt="" class="screen1">
+                    <img src="img/screen2.png" alt="" class="screen2">
+                </div>
+            </div>
+        </section>
+        <section class="services">
+            <div class="container wow fadeIn" data-wow-duration="1s" data-wow-delay="0.5s">
+                <div class="title_h2">
+                    <p class="h2">Стоимость услуги "Управление репутацией в интернете"</p>
+                </div>
+                <div class="services__box">
+                    <div class="services__block">
+                        <div class="icon">
+                            <span>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="45" height="42" viewBox="0 0 45 42" fill="none">
+                                    <path d="M2.18146 8.59229H10.1756C10.2968 8.59229 10.4179 8.5322 10.539 8.47212L18.1698 0.841203C18.4726 0.540773 18.2304 0 17.8065 0H10.4179C10.2968 0 10.1756 0.0600859 10.0545 0.120172L1.81809 7.75108C1.45472 8.05151 1.69697 8.59229 2.18146 8.59229Z" fill="white"/>
+                                    <path d="M42.8185 8.59229H34.8244C34.7032 8.59229 34.5821 8.5322 34.461 8.47212L26.7696 0.841203C26.4668 0.540773 26.7091 0 27.133 0H34.5215C34.6427 0 34.7638 0.0600859 34.8849 0.120172L43.1819 7.75108C43.4847 8.05151 43.2425 8.59229 42.8185 8.59229Z" fill="white"/>
+                                    <path d="M22.1063 2.34336L16.5346 7.81118C16.2318 8.11161 16.4135 8.65238 16.898 8.65238H27.8597C28.2837 8.65238 28.5259 8.11161 28.2231 7.81118L22.7725 2.28328C22.6514 2.10302 22.288 2.10302 22.1063 2.34336Z" fill="white"/>
+                                    <path d="M0.485719 12.5576H7.87428C8.11653 12.5576 8.29821 12.6778 8.35878 12.9181L15.2023 33.4675C15.384 34.0083 14.6572 34.3688 14.2939 33.8881L0.0617847 13.3387C-0.119901 12.9782 0.122347 12.5576 0.485719 12.5576Z" fill="white"/>
+                                    <path d="M44.5143 12.5576H37.1257C36.8835 12.5576 36.7018 12.6778 36.6412 12.9181L29.7977 33.4675C29.616 34.0083 30.3428 34.3688 30.7062 33.8881L44.9382 13.3387C45.1199 12.9782 44.8777 12.5576 44.5143 12.5576Z" fill="white"/>
+                                    <path d="M13.022 12.5576H31.7963C32.1596 12.5576 32.4019 12.9181 32.2808 13.2186L22.8936 41.6392C22.712 42.1199 22.1063 42.1199 21.9247 41.6392L12.5376 13.2186C12.4164 12.9181 12.6587 12.5576 13.022 12.5576Z" fill="white"/>
+                                </svg>
+                            </span>
+                        </div>
+                        <p class="title">КОМФОРТ</p>
+                        <p class="services__text">Для тех, кто думает о репутации до появления негатива</p>
+                        <div class="line"></div>
+                        <div class="content">
+                            <p class="h5">Что включает пакет услуг?</p>
+                            <ul class="ul">
+                                <li class="li">
+                                    Ежемесячная публикация:
+                                    <p class="text">более 20 позитивных отзывов,</p>
+                                    <p class="text">2 отзывов в Яндекс. Картах,</p>
+                                    <p class="text">1 отзыва-статьи на Яндекс.Дзен,</p>
+                                    <p class="text">не менее 3 веток на платформах отзовиков</p>
+                                </li>
+                                <li class="li">
+                                    Создание страницы “Отзывы” на сайте и ее продвижение по 5 репутационным запросам
+                                </li>
+                                <li class="li">
+                                    SMM: создание сообществ в социальных сетях и их ведение
+                                </li>
+                                <li class="li">
+                                    Разработка технического задания по настройке и ведению контекстной рекламы (с ключевыми запросами “отзывы”)
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="bottom">
+                            <p class="price">
+                                30 900р
+                            </p>
+                            <button class="banner__btn open-modal">Заказать</button>
+                        </div>
+                    </div>
+                    <div class="services__block">
+                        <div class="icon">
+                            <span>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="45" height="42" viewBox="0 0 45 42" fill="none">
+                                    <path d="M2.18146 8.59229H10.1756C10.2968 8.59229 10.4179 8.5322 10.539 8.47212L18.1698 0.841203C18.4726 0.540773 18.2304 0 17.8065 0H10.4179C10.2968 0 10.1756 0.0600859 10.0545 0.120172L1.81809 7.75108C1.45472 8.05151 1.69697 8.59229 2.18146 8.59229Z" fill="white"/>
+                                    <path d="M42.8185 8.59229H34.8244C34.7032 8.59229 34.5821 8.5322 34.461 8.47212L26.7696 0.841203C26.4668 0.540773 26.7091 0 27.133 0H34.5215C34.6427 0 34.7638 0.0600859 34.8849 0.120172L43.1819 7.75108C43.4847 8.05151 43.2425 8.59229 42.8185 8.59229Z" fill="white"/>
+                                    <path d="M22.1063 2.34336L16.5346 7.81118C16.2318 8.11161 16.4135 8.65238 16.898 8.65238H27.8597C28.2837 8.65238 28.5259 8.11161 28.2231 7.81118L22.7725 2.28328C22.6514 2.10302 22.288 2.10302 22.1063 2.34336Z" fill="white"/>
+                                    <path d="M0.485719 12.5576H7.87428C8.11653 12.5576 8.29821 12.6778 8.35878 12.9181L15.2023 33.4675C15.384 34.0083 14.6572 34.3688 14.2939 33.8881L0.0617847 13.3387C-0.119901 12.9782 0.122347 12.5576 0.485719 12.5576Z" fill="white"/>
+                                    <path d="M44.5143 12.5576H37.1257C36.8835 12.5576 36.7018 12.6778 36.6412 12.9181L29.7977 33.4675C29.616 34.0083 30.3428 34.3688 30.7062 33.8881L44.9382 13.3387C45.1199 12.9782 44.8777 12.5576 44.5143 12.5576Z" fill="white"/>
+                                    <path d="M13.022 12.5576H31.7963C32.1596 12.5576 32.4019 12.9181 32.2808 13.2186L22.8936 41.6392C22.712 42.1199 22.1063 42.1199 21.9247 41.6392L12.5376 13.2186C12.4164 12.9181 12.6587 12.5576 13.022 12.5576Z" fill="white"/>
+                                </svg>
+                            </span>
+                        </div>
+                        <p class="title">СТАРТ</p>
+                        <p class="services__text">Для тех, кто хочет выйти из тени с негатива</p>
+                        <div class="line"></div>
+                        <div class="content">
+                            <p class="h5">Что включает пакет услуг?</p>
+                            <ul class="ul">
+                                <li class="li">
+                                    Ведение переговоров с администрацией порталов об удалении негативных отзывов (клеветы)
+                                </li>
+                                <li class="li">
+                                    Ежемесячная публикация:
+                                    <p class="text">более 36 позитивных отзывов,</p>
+                                    <p class="text">10 упоминаний на тематических форумах,</p>
+                                    <p class="text">1 отзыва-статьи на Яндекс.Дзен,</p>
+                                    <p class="text">не менее 5 веток на платформах отзовиков</p>
+                                </li>
+                                <li class="li">
+                                    Создание страницы “Отзывы” на сайте и ее продвижение по 10 репутационным запросам
+                                </li>
+                                <li class="li">
+                                    Разработка технического задания по настройке и ведению контекстной рекламы (с ключевыми запросами “отзывы”)
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="bottom">
+                            <p class="price">
+                                47 900р
+                            </p>
+                            <button class="banner__btn open-modal">Заказать</button>
+                        </div>
+                    </div>
+                    <div class="services__block">
+                        <div class="icon">
+                            <span>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="45" height="42" viewBox="0 0 45 42" fill="none">
+                                    <path d="M2.18146 8.59229H10.1756C10.2968 8.59229 10.4179 8.5322 10.539 8.47212L18.1698 0.841203C18.4726 0.540773 18.2304 0 17.8065 0H10.4179C10.2968 0 10.1756 0.0600859 10.0545 0.120172L1.81809 7.75108C1.45472 8.05151 1.69697 8.59229 2.18146 8.59229Z" fill="white"/>
+                                    <path d="M42.8185 8.59229H34.8244C34.7032 8.59229 34.5821 8.5322 34.461 8.47212L26.7696 0.841203C26.4668 0.540773 26.7091 0 27.133 0H34.5215C34.6427 0 34.7638 0.0600859 34.8849 0.120172L43.1819 7.75108C43.4847 8.05151 43.2425 8.59229 42.8185 8.59229Z" fill="white"/>
+                                    <path d="M22.1063 2.34336L16.5346 7.81118C16.2318 8.11161 16.4135 8.65238 16.898 8.65238H27.8597C28.2837 8.65238 28.5259 8.11161 28.2231 7.81118L22.7725 2.28328C22.6514 2.10302 22.288 2.10302 22.1063 2.34336Z" fill="white"/>
+                                    <path d="M0.485719 12.5576H7.87428C8.11653 12.5576 8.29821 12.6778 8.35878 12.9181L15.2023 33.4675C15.384 34.0083 14.6572 34.3688 14.2939 33.8881L0.0617847 13.3387C-0.119901 12.9782 0.122347 12.5576 0.485719 12.5576Z" fill="white"/>
+                                    <path d="M44.5143 12.5576H37.1257C36.8835 12.5576 36.7018 12.6778 36.6412 12.9181L29.7977 33.4675C29.616 34.0083 30.3428 34.3688 30.7062 33.8881L44.9382 13.3387C45.1199 12.9782 44.8777 12.5576 44.5143 12.5576Z" fill="white"/>
+                                    <path d="M13.022 12.5576H31.7963C32.1596 12.5576 32.4019 12.9181 32.2808 13.2186L22.8936 41.6392C22.712 42.1199 22.1063 42.1199 21.9247 41.6392L12.5376 13.2186C12.4164 12.9181 12.6587 12.5576 13.022 12.5576Z" fill="white"/>
+                                </svg>
+                            </span>
+                        </div>
+                        <p class="title">СТАРТ</p>
+                        <p class="services__text">Для тех, кто хочет выйти из тени с негатива</p>
+                        <div class="line"></div>
+                        <div class="content">
+                            <p class="h5">Что включает пакет услуг?</p>
+                            <ul class="ul">
+                                <li class="li">
+                                    Ведение переговоров с администрацией порталов об удалении негативных отзывов (клеветы)
+                                </li>
+                                <li class="li">
+                                    Ежемесячная публикация:
+                                    <p class="text">более 36 позитивных отзывов,</p>
+                                    <p class="text">10 упоминаний на тематических форумах,</p>
+                                    <p class="text">1 отзыва-статьи на Яндекс.Дзен,</p>
+                                    <p class="text">не менее 5 веток на платформах отзовиков</p>
+                                </li>
+                                <li class="li">
+                                    Создание страницы “Отзывы” на сайте и ее продвижение по 10 репутационным запросам
+                                </li>
+                                <li class="li">
+                                    Разработка технического задания по настройке и ведению контекстной рекламы (с ключевыми запросами “отзывы”)
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="bottom">
+                            <p class="price">
+                                47 900р
+                            </p>
+                            <button class="banner__btn open-modal">Заказать</button>
+                        </div>
+                    </div>
+                    <div class="services__block">
+                        <div class="icon">
+                            <span>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="45" height="42" viewBox="0 0 45 42" fill="none">
+                                    <path d="M2.18146 8.59229H10.1756C10.2968 8.59229 10.4179 8.5322 10.539 8.47212L18.1698 0.841203C18.4726 0.540773 18.2304 0 17.8065 0H10.4179C10.2968 0 10.1756 0.0600859 10.0545 0.120172L1.81809 7.75108C1.45472 8.05151 1.69697 8.59229 2.18146 8.59229Z" fill="white"/>
+                                    <path d="M42.8185 8.59229H34.8244C34.7032 8.59229 34.5821 8.5322 34.461 8.47212L26.7696 0.841203C26.4668 0.540773 26.7091 0 27.133 0H34.5215C34.6427 0 34.7638 0.0600859 34.8849 0.120172L43.1819 7.75108C43.4847 8.05151 43.2425 8.59229 42.8185 8.59229Z" fill="white"/>
+                                    <path d="M22.1063 2.34336L16.5346 7.81118C16.2318 8.11161 16.4135 8.65238 16.898 8.65238H27.8597C28.2837 8.65238 28.5259 8.11161 28.2231 7.81118L22.7725 2.28328C22.6514 2.10302 22.288 2.10302 22.1063 2.34336Z" fill="white"/>
+                                    <path d="M0.485719 12.5576H7.87428C8.11653 12.5576 8.29821 12.6778 8.35878 12.9181L15.2023 33.4675C15.384 34.0083 14.6572 34.3688 14.2939 33.8881L0.0617847 13.3387C-0.119901 12.9782 0.122347 12.5576 0.485719 12.5576Z" fill="white"/>
+                                    <path d="M44.5143 12.5576H37.1257C36.8835 12.5576 36.7018 12.6778 36.6412 12.9181L29.7977 33.4675C29.616 34.0083 30.3428 34.3688 30.7062 33.8881L44.9382 13.3387C45.1199 12.9782 44.8777 12.5576 44.5143 12.5576Z" fill="white"/>
+                                    <path d="M13.022 12.5576H31.7963C32.1596 12.5576 32.4019 12.9181 32.2808 13.2186L22.8936 41.6392C22.712 42.1199 22.1063 42.1199 21.9247 41.6392L12.5376 13.2186C12.4164 12.9181 12.6587 12.5576 13.022 12.5576Z" fill="white"/>
+                                </svg>
+                            </span>
+                        </div>
+                        <p class="title">СТАРТ</p>
+                        <p class="services__text">Для тех, кто хочет выйти из тени с негатива</p>
+                        <div class="line"></div>
+                        <div class="content">
+                            <p class="h5">Что включает пакет услуг?</p>
+                            <ul class="ul">
+                                <li class="li">
+                                    Ведение переговоров с администрацией порталов об удалении негативных отзывов (клеветы)
+                                </li>
+                                <li class="li">
+                                    Ежемесячная публикация:
+                                    <p class="text">более 36 позитивных отзывов,</p>
+                                    <p class="text">10 упоминаний на тематических форумах,</p>
+                                    <p class="text">1 отзыва-статьи на Яндекс.Дзен,</p>
+                                    <p class="text">не менее 5 веток на платформах отзовиков</p>
+                                </li>
+                                <li class="li">
+                                    Создание страницы “Отзывы” на сайте и ее продвижение по 10 репутационным запросам
+                                </li>
+                                <li class="li">
+                                    Разработка технического задания по настройке и ведению контекстной рекламы (с ключевыми запросами “отзывы”)
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="bottom">
+                            <p class="price">
+                                47 900р
+                            </p>
+                            <button class="banner__btn open-modal">Заказать</button>
+                        </div>
+                    </div>
+                    <div class="services__block">
+                        <div class="icon">
+                            <span>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="45" height="42" viewBox="0 0 45 42" fill="none">
+                                    <path d="M2.18146 8.59229H10.1756C10.2968 8.59229 10.4179 8.5322 10.539 8.47212L18.1698 0.841203C18.4726 0.540773 18.2304 0 17.8065 0H10.4179C10.2968 0 10.1756 0.0600859 10.0545 0.120172L1.81809 7.75108C1.45472 8.05151 1.69697 8.59229 2.18146 8.59229Z" fill="white"/>
+                                    <path d="M42.8185 8.59229H34.8244C34.7032 8.59229 34.5821 8.5322 34.461 8.47212L26.7696 0.841203C26.4668 0.540773 26.7091 0 27.133 0H34.5215C34.6427 0 34.7638 0.0600859 34.8849 0.120172L43.1819 7.75108C43.4847 8.05151 43.2425 8.59229 42.8185 8.59229Z" fill="white"/>
+                                    <path d="M22.1063 2.34336L16.5346 7.81118C16.2318 8.11161 16.4135 8.65238 16.898 8.65238H27.8597C28.2837 8.65238 28.5259 8.11161 28.2231 7.81118L22.7725 2.28328C22.6514 2.10302 22.288 2.10302 22.1063 2.34336Z" fill="white"/>
+                                    <path d="M0.485719 12.5576H7.87428C8.11653 12.5576 8.29821 12.6778 8.35878 12.9181L15.2023 33.4675C15.384 34.0083 14.6572 34.3688 14.2939 33.8881L0.0617847 13.3387C-0.119901 12.9782 0.122347 12.5576 0.485719 12.5576Z" fill="white"/>
+                                    <path d="M44.5143 12.5576H37.1257C36.8835 12.5576 36.7018 12.6778 36.6412 12.9181L29.7977 33.4675C29.616 34.0083 30.3428 34.3688 30.7062 33.8881L44.9382 13.3387C45.1199 12.9782 44.8777 12.5576 44.5143 12.5576Z" fill="white"/>
+                                    <path d="M13.022 12.5576H31.7963C32.1596 12.5576 32.4019 12.9181 32.2808 13.2186L22.8936 41.6392C22.712 42.1199 22.1063 42.1199 21.9247 41.6392L12.5376 13.2186C12.4164 12.9181 12.6587 12.5576 13.022 12.5576Z" fill="white"/>
+                                </svg>
+                            </span>
+                        </div>
+                        <p class="title">СТАРТ</p>
+                        <p class="services__text">Для тех, кто хочет выйти из тени с негатива</p>
+                        <div class="line"></div>
+                        <div class="content">
+                            <p class="h5">Что включает пакет услуг?</p>
+                            <ul class="ul">
+                                <li class="li">
+                                    Ведение переговоров с администрацией порталов об удалении негативных отзывов (клеветы)
+                                </li>
+                                <li class="li">
+                                    Ежемесячная публикация:
+                                    <p class="text">более 36 позитивных отзывов,</p>
+                                    <p class="text">10 упоминаний на тематических форумах,</p>
+                                    <p class="text">1 отзыва-статьи на Яндекс.Дзен,</p>
+                                    <p class="text">не менее 5 веток на платформах отзовиков</p>
+                                </li>
+                                <li class="li">
+                                    Создание страницы “Отзывы” на сайте и ее продвижение по 10 репутационным запросам
+                                </li>
+                                <li class="li">
+                                    Разработка технического задания по настройке и ведению контекстной рекламы (с ключевыми запросами “отзывы”)
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="bottom">
+                            <p class="price">
+                                47 900р
+                            </p>
+                            <button class="banner__btn open-modal">Заказать</button>
+                        </div>
+                    </div>
+                    <div class="services__block">
+                        <div class="icon">
+                            <span>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="45" height="42" viewBox="0 0 45 42" fill="none">
+                                    <path d="M2.18146 8.59229H10.1756C10.2968 8.59229 10.4179 8.5322 10.539 8.47212L18.1698 0.841203C18.4726 0.540773 18.2304 0 17.8065 0H10.4179C10.2968 0 10.1756 0.0600859 10.0545 0.120172L1.81809 7.75108C1.45472 8.05151 1.69697 8.59229 2.18146 8.59229Z" fill="white"/>
+                                    <path d="M42.8185 8.59229H34.8244C34.7032 8.59229 34.5821 8.5322 34.461 8.47212L26.7696 0.841203C26.4668 0.540773 26.7091 0 27.133 0H34.5215C34.6427 0 34.7638 0.0600859 34.8849 0.120172L43.1819 7.75108C43.4847 8.05151 43.2425 8.59229 42.8185 8.59229Z" fill="white"/>
+                                    <path d="M22.1063 2.34336L16.5346 7.81118C16.2318 8.11161 16.4135 8.65238 16.898 8.65238H27.8597C28.2837 8.65238 28.5259 8.11161 28.2231 7.81118L22.7725 2.28328C22.6514 2.10302 22.288 2.10302 22.1063 2.34336Z" fill="white"/>
+                                    <path d="M0.485719 12.5576H7.87428C8.11653 12.5576 8.29821 12.6778 8.35878 12.9181L15.2023 33.4675C15.384 34.0083 14.6572 34.3688 14.2939 33.8881L0.0617847 13.3387C-0.119901 12.9782 0.122347 12.5576 0.485719 12.5576Z" fill="white"/>
+                                    <path d="M44.5143 12.5576H37.1257C36.8835 12.5576 36.7018 12.6778 36.6412 12.9181L29.7977 33.4675C29.616 34.0083 30.3428 34.3688 30.7062 33.8881L44.9382 13.3387C45.1199 12.9782 44.8777 12.5576 44.5143 12.5576Z" fill="white"/>
+                                    <path d="M13.022 12.5576H31.7963C32.1596 12.5576 32.4019 12.9181 32.2808 13.2186L22.8936 41.6392C22.712 42.1199 22.1063 42.1199 21.9247 41.6392L12.5376 13.2186C12.4164 12.9181 12.6587 12.5576 13.022 12.5576Z" fill="white"/>
+                                </svg>
+                            </span>
+                        </div>
+                        <p class="title">СТАРТ</p>
+                        <p class="services__text">Для тех, кто хочет выйти из тени с негатива</p>
+                        <div class="line"></div>
+                        <div class="content">
+                            <p class="h5">Что включает пакет услуг?</p>
+                            <ul class="ul">
+                                <li class="li">
+                                    Ведение переговоров с администрацией порталов об удалении негативных отзывов (клеветы)
+                                </li>
+                                <li class="li">
+                                    Ежемесячная публикация:
+                                    <p class="text">более 36 позитивных отзывов,</p>
+                                    <p class="text">10 упоминаний на тематических форумах,</p>
+                                    <p class="text">1 отзыва-статьи на Яндекс.Дзен,</p>
+                                    <p class="text">не менее 5 веток на платформах отзовиков</p>
+                                </li>
+                                <li class="li">
+                                    Создание страницы “Отзывы” на сайте и ее продвижение по 10 репутационным запросам
+                                </li>
+                                <li class="li">
+                                    Разработка технического задания по настройке и ведению контекстной рекламы (с ключевыми запросами “отзывы”)
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="bottom">
+                            <p class="price">
+                                47 900р
+                            </p>
+                            <button class="banner__btn open-modal">Заказать</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="services__btn">
+                    <button class="banner__btn services-open">Показать все</button>
+                </div>
+            </div>
+        </section>
+        <div class="bottom_line">
+            <img src="img/bottom-line.png" alt="" class="desktop">
+            <img src="img/bottom-line-bottom.png" alt="" class="mobile">
+        </div>
+        <section class="reputation">
+            <img src="img/star-4.svg" alt="" class="star10 wow fadeInUp" data-wow-duration="1s" data-wow-delay="1s">
+            <img src="img/star-5.svg" alt="" class="star11 wow fadeInUp" data-wow-duration="1s" data-wow-delay="1.2s">
+            <img src="img/star-7.svg" alt="" class="star11_5 wow fadeInUp" data-wow-duration="1s" data-wow-delay="1.4s">
+            <div class="container wow fadeIn" data-wow-duration="1s" data-wow-delay="0.5s">
+                <div class="title_h2">
+                    <p class="h2">Управляя репутацией с ReTop, вы получаете</p>
+                </div>
+                <div class="reputation__box">
+                    <div class="reputation__block">
+                        <div class="icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="45" height="45" viewBox="0 0 45 45" fill="none">
+                                <g clip-path="url(#clip0_87_228)">
+                                <path d="M39.4223 7.6097C41.3541 7.6097 42.9202 6.05344 42.9202 4.13371C42.9202 2.21397 41.3541 0.657715 39.4223 0.657715C37.4904 0.657715 35.9244 2.21397 35.9244 4.13371C35.9244 6.05344 37.4904 7.6097 39.4223 7.6097Z" stroke="#E9E9E9" stroke-miterlimit="10"/>
+                                <path d="M5.67227 10.8038C8.54391 10.8038 10.8718 8.4904 10.8718 5.63674C10.8718 2.78308 8.54391 0.469727 5.67227 0.469727C2.80062 0.469727 0.472687 2.78308 0.472687 5.63674C0.472687 8.4904 2.80062 10.8038 5.67227 10.8038Z" stroke="#E9E9E9" stroke-miterlimit="10"/>
+                                <path d="M5.67227 44.5303C8.54391 44.5303 10.8718 42.217 10.8718 39.3633C10.8718 36.5096 8.54391 34.1963 5.67227 34.1963C2.80062 34.1963 0.472687 36.5096 0.472687 39.3633C0.472687 42.217 2.80062 44.5303 5.67227 44.5303Z" stroke="#E9E9E9" stroke-miterlimit="10"/>
+                                <path d="M7.37394 26.3988C9.30577 26.3988 10.8718 24.8425 10.8718 22.9228C10.8718 21.003 9.30577 19.4468 7.37394 19.4468C5.4421 19.4468 3.87604 21.003 3.87604 22.9228C3.87604 24.8425 5.4421 26.3988 7.37394 26.3988Z" stroke="#E9E9E9" stroke-miterlimit="10"/>
+                                <path d="M41.0294 44.5301C42.9613 44.5301 44.5273 42.9739 44.5273 41.0541C44.5273 39.1344 42.9613 37.5781 41.0294 37.5781C39.0976 37.5781 37.5315 39.1344 37.5315 41.0541C37.5315 42.9739 39.0976 44.5301 41.0294 44.5301Z" stroke="#E9E9E9" stroke-miterlimit="10"/>
+                                <path d="M31.0084 29.6869C34.7677 29.6869 37.8151 26.6585 37.8151 22.9228C37.8151 19.1871 34.7677 16.1587 31.0084 16.1587C27.2492 16.1587 24.2017 19.1871 24.2017 22.9228C24.2017 26.6585 27.2492 29.6869 31.0084 29.6869Z" stroke="#E9E9E9" stroke-miterlimit="10"/>
+                                <path d="M10.5882 7.32764L26.2815 18.1314" stroke="#E9E9E9" stroke-miterlimit="10"/>
+                                <path d="M10.8719 37.5783L26.0924 27.4321" stroke="#E9E9E9" stroke-miterlimit="10"/>
+                                <path d="M10.8719 22.5469H24.2962" stroke="#E9E9E9" stroke-miterlimit="10"/>
+                                <path d="M32.3319 16.4404L37.6261 7.32764" stroke="#E9E9E9" stroke-miterlimit="10"/>
+                                <path d="M34.1281 28.6533L39.5168 37.9539" stroke="#E9E9E9" stroke-miterlimit="10"/>
+                                </g>
+                                <defs>
+                                <clipPath id="clip0_87_228">
+                                <rect width="45" height="45" fill="white"/>
+                                </clipPath>
+                                </defs>
+                            </svg>
+                        </div>
+                        <p class="title">КОМПЛЕКСНОЕ РЕШЕНИЕ РЕПУТАЦИОННЫХ ЗАДАЧ</p>
+                        <p class="text">Мы не просто напишем отзывы, а проведем актуальную экспертизу, найдем пути решения в сложившейся ситуации и расскажем аудитории о сильных сторонах Вашей компании</p>
+                    </div>
+                    <div class="reputation__block">
+                        <div class="icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="47" height="47" viewBox="0 0 47 47" fill="none">
+                                <path d="M21.2581 46.1902H3C1.89543 46.1902 1 45.2948 1 44.1902V3C1 1.89543 1.89543 1 3 1H33.7281C34.8327 1 35.7281 1.89543 35.7281 3V17.9662" stroke="white" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M7.59564 11.0957H29.2671" stroke="white" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M7.59564 22.6787H18.4314" stroke="white" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M7.59564 33.8594H14.8643" stroke="white" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M35.1643 46.1441C41.1487 46.1441 46 41.2604 46 35.2361C46 29.2118 41.1487 24.3281 35.1643 24.3281C29.1799 24.3281 24.3286 29.2118 24.3286 35.2361C24.3286 41.2604 29.1799 46.1441 35.1643 46.1441Z" stroke="white" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M32 35.5L34.5 38L39.5 33" stroke="#E9E9E9" stroke-linecap="round"/>
+                            </svg>
+                        </div>
+                        <p class="title">ГАРАНТИРОВАННОЕ ВЫПОЛНЕНИЕ УСЛОВИЙ ДОГОВОРА</p>
+                        <p class="text">В случае удаления администрацией отзыва с платформы, наше агентство обязуется повторно разместить отзыв на площадке за свой счет</p>
+                    </div>
+                    <div class="reputation__block">
+                        <div class="icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="37" height="47" viewBox="0 0 37 47" fill="none">
+                                <path d="M28.0389 3.75488H31.9836C34.207 3.75488 36 5.52097 36 7.71093V42.0437C36 44.2337 34.207 45.9998 31.9836 45.9998H5.01639C2.79303 45.9998 1 44.2337 1 42.0437V7.71093C1 5.52097 2.79303 3.75488 5.01639 3.75488H8.88934" stroke="white" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M19.5758 12.9385H30.6209" stroke="white" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M19.5758 23.6768H30.6209" stroke="white" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M19.5758 34.3438H30.6209" stroke="white" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M19.5758 28.9746H25.2418" stroke="white" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M19.5758 39.7129H25.2418" stroke="white" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M19.5758 18.3076H25.2418" stroke="white" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M24.9549 6.5102H11.7582C10.1803 6.5102 8.96106 5.23862 8.96106 3.7551C8.96106 2.20094 10.252 1 11.7582 1H24.9549C26.5328 1 27.752 2.27159 27.752 3.7551C27.752 5.23862 26.5328 6.5102 24.9549 6.5102Z" stroke="white" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M15.0574 12.5859L8.88933 18.5906L5.59015 15.341" stroke="white" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M15.0574 22.9697L8.88933 28.9744L5.59015 25.7248" stroke="white" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M15.0574 33.3545L8.88933 39.3592L5.59015 36.1096" stroke="white" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+                        <p class="title">РЕАЛЬНЫЕ РЕЗУЛЬТАТЫ</p>
+                        <p class="text">Спрогнозируем процент выдачи позитивного контента и достигнем его. Мы не обещаем невозможного – мы работаем на реальный результат.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="cases" id="card">
+            <img src="img/star-4.svg" alt="" class="star12 wow fadeInUp" data-wow-duration="1s" data-wow-delay="1s">
+            <img src="img/star-4.svg" alt="" class="star13 wow fadeInUp" data-wow-duration="1s" data-wow-delay="1.2s">
+            <div class="container wow fadeIn" data-wow-duration="1s" data-wow-delay="0.5s">
+                <div class="title_h2">
+                    <p class="h2">Наши кейсы</p>
+                </div>
+                <div class="cases__grid">
+                    <a href="#" class="cases__block">
+                        <div class="img">
+                            <img src="img/img2.png" alt="">
+                        </div>
+                        <div class="content">
+                            <p class="title">Мебельная компания (NDA)</p>
+                        </div>
+                    </a>
+                    <a href="#" class="cases__block">
+                        <div class="img">
+                            <img src="img/img3.png" alt="">
+                        </div>
+                        <div class="content">
+                            <p class="title">Производитель металлоконструкций (NDA)</p>
+                        </div>
+                    </a>
+                    <div class="cases__wrap">
+                        <p class="title">Производитель металлоконструкций (NDA)</p>
+                        <p class="text">РЕЗУЛЬТАТЫ УПРАВЛЕНИЯ РЕПУТАЦИЕЙ САЙТА:</p>
+                        <div class="wrap">
+                            <p class="h5">+85%</p>
+                            <p class="h6">Доля полодительных отзывов в выдаче в поисковой системе google</p>
+                        </div>
+                        <div class="wrap">
+                            <p class="h5">+95%</p>
+                            <p class="h6">Доля полодительных отзывов в выдаче в поисковой системе яндекса</p>
+                        </div>
+                        <div class="wrap">
+                            <p class="h5">+100%</p>
+                            <p class="h6">Доля полодительных отзывов в выдаче в поисковой системе google</p>
+                        </div>
+                        <div class="wrap">
+                            <p class="h5">+95%</p>
+                            <p class="h6">Доля полодительных отзывов в выдаче в поисковой системе яндекса</p>
+                        </div>
+                    </div>
+                    <a href="#" class="cases__block">
+                        <div class="img">
+                            <img src="img/img2.png" alt="">
+                        </div>
+                        <div class="content">
+                            <p class="title">Мебельная компания (NDA)</p>
+                        </div>
+                    </a>
+                    <a href="#" class="cases__block">
+                        <div class="img">
+                            <img src="img/img3.png" alt="">
+                        </div>
+                        <div class="content">
+                            <p class="title">Производитель металлоконструкций (NDA)</p>
+                        </div>
+                    </a>
+                    <a href="#" class="cases__block">
+                        <div class="img">
+                            <img src="img/img2.png" alt="">
+                        </div>
+                        <div class="content">
+                            <p class="title">Мебельная компания (NDA)</p>
+                        </div>
+                    </a>
+                    <a href="#" class="cases__block">
+                        <div class="img">
+                            <img src="img/img3.png" alt="">
+                        </div>
+                        <div class="content">
+                            <p class="title">Производитель металлоконструкций (NDA)</p>
+                        </div>
+                    </a>
+                    <a href="#" class="cases__block">
+                        <div class="img">
+                            <img src="img/img2.png" alt="">
+                        </div>
+                        <div class="content">
+                            <p class="title">Мебельная компания (NDA)</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="wow fadeIn" data-wow-duration="1s" data-wow-delay="0.5s">
+                <div class="title_h2">
+                    <p class="h2">Блог</p>
+                </div>
+                <div class="cases__slider_wrap">
+                    <div class="cases__slider">
+                        <div class="wrap">
+                            <div class="cases__slick">
+                                <div class="img">
+                                    <img src="img/img.png" alt="">
+                                </div>
+                                <div class="content">
+                                    <p class="title">Статья 1</p>
+                                    <p class="text">Спрогнозируем процент выдачи позитивного контента и достигнем его. Мы не обещаем</p>
+                                    <a href="#" class="link">Читать</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="wrap">
+                            <div class="cases__slick">
+                                <div class="img">
+                                    <img src="img/img.png" alt="">
+                                </div>
+                                <div class="content">
+                                    <p class="title">Заголвок статьи длинный, в 2 строчки</p>
+                                    <p class="text">Спрогнозируем процент выдачи позитивного контента и достигнем его. Мы не обещаем</p>
+                                    <a href="#" class="link">Читать</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="wrap">
+                            <div class="cases__slick">
+                                <div class="img">
+                                    <img src="img/img.png" alt="">
+                                </div>
+                                <div class="content">
+                                    <p class="title">Мебельная компания (NDA)</p>
+                                    <p class="text">Спрогнозируем процент выдачи позитивного контента и достигнем его. Мы не обещаем</p>
+                                    <a href="#" class="link">Читать</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="wrap">
+                            <div class="cases__slick">
+                                <div class="img">
+                                    <img src="img/img.png" alt="">
+                                </div>
+                                <div class="content">
+                                    <p class="title">Мебельная компания (NDA)</p>
+                                    <p class="text">Спрогнозируем процент выдачи позитивного контента и достигнем его. Мы не обещаем</p>
+                                    <a href="#" class="link">Читать</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="reviews">
+            <img src="img/star-5.svg" alt="" class="star14 wow fadeInUp" data-wow-duration="1s" data-wow-delay="1s">
+            <div class="wow fadeIn" data-wow-duration="1s" data-wow-delay="0.5s">
+                <div class="title_h2">
+                    <p class="title">Отзывы</p>
+                </div>
+                <div class="reviews__slider">
+                    <div class="reviews__wrap">
+                        <div class="reviews__block">
+                            <div class="person">
+                                <div class="img">
+                                    <img src="img/person.png" alt="">
+                                </div>
+                                <div>
+                                    <p class="speciality">Руководитель сервисного центра Red Service</p>
+                                    <p class="name">Анжелика Трофимова</p>
+                                </div>
+                            </div>
+                            <div class="reviews__text">Мои клиенты часто спрашивали про полировку часов и телефонов, начал разбираться в теме и купил полировальную машинку за пару тысяч, круг и пасту, как результат ухреначил свой телефон. После этого забил на эту тему, пока не попался ваш ролик на ютюбе. Решил попробовать еще раз и заказал станок. Работаем уже два месяца, практически полностью его окупил. Всем рекомендую.</div>
+                        </div>
+                    </div>
+                    <div class="reviews__wrap">
+                        <div class="reviews__block">
+                            <div class="person">
+                                <div class="img">
+                                    <img src="img/person.png" alt="">
+                                </div>
+                                <div>
+                                    <p class="speciality">Руководитель сервисного центра Red Service</p>
+                                    <p class="name">Анжелика Трофимова</p>
+                                </div>
+                            </div>
+                            <div class="reviews__text">Мои клиенты часто спрашивали про полировку часов и телефонов, начал разбираться в теме и купил полировальную машинку за пару тысяч, круг и пасту, как результат ухреначил свой телефон. После этого забил на эту тему, пока не попался ваш ролик на ютюбе. Решил попробовать еще раз и заказал станок. Работаем уже два месяца, практически полностью его окупил. Всем рекомендую.</div>
+                        </div>
+                    </div>
+                    <div class="reviews__wrap">
+                        <div class="reviews__block">
+                            <div class="person">
+                                <div class="img">
+                                    <img src="img/person.png" alt="">
+                                </div>
+                                <div>
+                                    <p class="speciality">Руководитель сервисного центра Red Service</p>
+                                    <p class="name">Анжелика Трофимова</p>
+                                </div>
+                            </div>
+                            <div class="reviews__text">Мои клиенты часто спрашивали про полировку часов и телефонов, начал разбираться в теме и купил полировальную машинку за пару тысяч, круг и пасту, как результат ухреначил свой телефон. После этого забил на эту тему, пока не попался ваш ролик на ютюбе. Решил попробовать еще раз и заказал станок. Работаем уже два месяца, практически полностью его окупил. Всем рекомендую.</div>
+                        </div>
+                    </div>
+                    <div class="reviews__wrap">
+                        <div class="reviews__block">
+                            <div class="person">
+                                <div class="img">
+                                    <img src="img/person.png" alt="">
+                                </div>
+                                <div>
+                                    <p class="speciality">Руководитель сервисного центра Red Service</p>
+                                    <p class="name">Анжелика Трофимова</p>
+                                </div>
+                            </div>
+                            <div class="reviews__text">Мои клиенты часто спрашивали про полировку часов и телефонов, начал разбираться в теме и купил полировальную машинку за пару тысяч, круг и пасту, как результат ухреначил свой телефон. После этого забил на эту тему, пока не попался ваш ролик на ютюбе. Решил попробовать еще раз и заказал станок. Работаем уже два месяца, практически полностью его окупил. Всем рекомендую.</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="location" id="contacts">
+            <img src="img/star-6.svg" alt="" class="star15 wow fadeInUp" data-wow-duration="1s" data-wow-delay="1s">
+            <div class="container">
+                <div class="location__box">
+                    <div class="location__left">
+                        <div class="title_h2">
+                            <p class="h2">Контакты</p>
+                        </div>
+                        <div class="wrap">
+                            <p class="h6">Телефон</p>
+                            <a href="#" class="a">7 913 777 45 77</a>
+                        </div>
+                        <div class="wrap">
+                            <p class="h6">Почта</p>
+                            <a href="#" class="a">mail@mail.ru</a>
+                        </div>
+                        <div class="wrap">
+                            <p class="h6">Адрес</p>
+                            <a href="#" class="a">Адрес Адрес Адрес</a>
+                        </div>
+                        <div class="wrap">
+                            <p class="h6">Соц сети</p>
+                            <div class="soc">
+                                <a href="#" class="item">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="15" height="9" viewBox="0 0 15 9" fill="none">
+                                        <path d="M12.4468 5.23332C12.2043 4.92707 12.2736 4.79082 12.4468 4.51707C12.4499 4.51395 14.4518 1.7477 14.658 0.80957L14.6593 0.808945C14.7618 0.46707 14.6593 0.21582 14.1636 0.21582H12.5236C12.1061 0.21582 11.9136 0.431445 11.8105 0.672695C11.8105 0.672695 10.9755 2.67145 9.79425 3.96707C9.413 4.34144 9.23675 4.46145 9.02863 4.46145C8.92613 4.46145 8.76675 4.34145 8.76675 3.99957V0.808945C8.76675 0.398945 8.64988 0.21582 8.30425 0.21582H5.7255C5.46363 0.21582 5.308 0.40707 5.308 0.585195C5.308 0.973945 5.89863 1.06332 5.95988 2.15707V4.5302C5.95988 5.0502 5.8655 5.14582 5.65613 5.14582C5.09863 5.14582 3.7455 3.13895 2.94363 0.84207C2.78175 0.396445 2.62363 0.216445 2.203 0.216445H0.562378C0.0942529 0.216445 -0.00012207 0.43207 -0.00012207 0.67332C-0.00012207 1.09957 0.557378 3.21895 2.59238 6.01895C3.94863 7.9302 5.85863 8.96582 7.59613 8.96582C8.6405 8.96582 8.768 8.73582 8.768 8.3402C8.768 6.51395 8.67363 6.34144 9.19675 6.34144C9.43925 6.34144 9.85675 6.46145 10.8318 7.38332C11.9461 8.47645 12.1293 8.96582 12.753 8.96582H14.393C14.8605 8.96582 15.0974 8.73582 14.9611 8.28207C14.6493 7.3277 12.5418 5.36457 12.4468 5.23332Z" fill="white"/>
+                                    </svg>
+                                </a>
+                                <a href="#" class="item">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                        <path d="M5.49024 16.3851L6.17804 16.787C7.33793 17.4634 8.65714 17.8186 9.99988 17.8158C11.503 17.8158 12.9724 17.3701 14.2222 16.535C15.472 15.6999 16.4461 14.5129 17.0214 13.1242C17.5966 11.7355 17.7471 10.2074 17.4538 8.73313C17.1606 7.25887 16.4368 5.90468 15.3739 4.84181C14.311 3.77893 12.9568 3.0551 11.4826 2.76185C10.0083 2.4686 8.48021 2.61911 7.09149 3.19433C5.70277 3.76956 4.51582 4.74367 3.68072 5.99348C2.84562 7.2433 2.39989 8.71268 2.39989 10.2158C2.39989 11.58 2.75804 12.8882 3.42969 14.0386L3.83059 14.7264L3.21024 17.0074L5.49024 16.3851ZM0.503691 19.7158L1.78809 14.9962C0.941771 13.5454 0.497132 11.8954 0.499891 10.2158C0.499891 4.96897 4.75304 0.71582 9.99988 0.71582C15.2467 0.71582 19.4999 4.96897 19.4999 10.2158C19.4999 15.4627 15.2467 19.7158 9.99988 19.7158C8.32102 19.7185 6.67171 19.2742 5.22139 18.4286L0.503691 19.7158ZM6.57134 5.75842C6.69864 5.74892 6.82689 5.74892 6.95419 5.75462C7.00549 5.75842 7.05679 5.76412 7.10809 5.76982C7.25914 5.78692 7.42539 5.87907 7.48144 6.00637C7.76454 6.64857 8.04004 7.29552 8.30604 7.94437C8.36494 8.08877 8.32979 8.27402 8.21769 8.45452C8.14059 8.57657 8.05719 8.69453 7.96784 8.80791C7.86049 8.94566 7.62964 9.19836 7.62964 9.19836C7.62964 9.19836 7.53559 9.31047 7.57169 9.45011C7.58499 9.50331 7.62869 9.58026 7.66859 9.64486L7.72464 9.73511C7.96784 10.1408 8.29464 10.5521 8.69364 10.9397C8.80764 11.0499 8.91879 11.163 9.03849 11.2684C9.48308 11.6608 9.98658 11.9809 10.53 12.2184L10.5347 12.2203C10.6155 12.2555 10.6563 12.2745 10.7741 12.3248C10.833 12.3495 10.8938 12.3714 10.9556 12.3875C11.0194 12.4038 11.0866 12.4007 11.1487 12.3787C11.2107 12.3567 11.2649 12.3168 11.3042 12.264C11.992 11.4309 12.0547 11.3767 12.0604 11.3767V11.3786C12.1082 11.334 12.165 11.3002 12.2269 11.2794C12.2889 11.2586 12.3545 11.2513 12.4195 11.258C12.4765 11.2618 12.5345 11.2722 12.5877 11.296C13.0921 11.5268 13.9177 11.8869 13.9177 11.8869L14.4706 12.1348C14.5637 12.1795 14.6482 12.2849 14.6511 12.3866C14.6549 12.4502 14.6606 12.5528 14.6387 12.7409C14.6083 12.987 14.5342 13.2824 14.4601 13.4373C14.4094 13.5429 14.342 13.6398 14.2606 13.7242C14.1648 13.8248 14.0598 13.9164 13.9471 13.9978C13.9081 14.0271 13.8686 14.0556 13.8284 14.0833C13.7102 14.1582 13.5888 14.228 13.4645 14.2923C13.2199 14.4222 12.9498 14.4968 12.6732 14.5108C12.4974 14.5203 12.3217 14.5336 12.145 14.5241C12.1374 14.5241 11.6054 14.4414 11.6054 14.4414C10.2547 14.0861 9.00561 13.4206 7.95739 12.4977C7.74269 12.3087 7.54414 12.1054 7.34084 11.903C6.49534 11.0623 5.85694 10.155 5.46934 9.29812C5.27095 8.87754 5.16379 8.41975 5.15489 7.95482C5.15097 7.37802 5.33952 6.8164 5.69069 6.35882C5.76004 6.26952 5.82559 6.17642 5.93864 6.06907C6.05929 5.95507 6.13529 5.89427 6.21794 5.85247C6.32783 5.7974 6.44771 5.76508 6.57039 5.75747L6.57134 5.75842Z" fill="white"/>
+                                    </svg>
+                                </a>
+                                <a href="#" class="item">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="17" height="15" viewBox="0 0 17 15" fill="none">
+                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M14.4449 0.353077C13.8387 0.610945 7.0046 3.60111 1.43808 6.02433C0.997248 6.23038 0.723282 6.6391 0.725545 7.04628C0.727807 7.45347 1.06098 7.75702 1.44798 7.80577C1.77974 7.85482 5.09702 8.29449 5.09702 8.29449L6.06447 13.3791L6.54924 11.1368L5.81238 7.78152L12.5269 3.16323L7.03344 8.79273L8.97835 10.8179C9.08941 10.9191 11.4791 13.4508 11.6457 13.6026C11.9233 13.8556 12.3681 14.3621 12.5891 14.3609C12.9758 14.3587 13.3597 13.8476 13.5212 13.0832C13.683 12.3697 14.7605 7.42641 16.1051 0.852852C16.2669 0.139355 15.547 -0.162045 14.4449 0.353077Z" fill="white"/>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="location__map">
+                        <div style="position:relative;overflow:hidden;"><a href="https://yandex.uz/maps/10335/tashkent/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:0px;">Ташкент</a><a href="https://yandex.uz/maps/geo/novosibirsk/53118058/?ll=69.279737%2C41.311151&utm_medium=mapframe&utm_source=maps&z=12" style="color:#eee;font-size:12px;position:absolute;top:14px;">Новосибирск — Яндекс Карты</a><iframe src="https://yandex.uz/map-widget/v1/-/CCUjaZGR2D" frameborder="1" allowfullscreen="true" style="position:relative;"></iframe></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <button class="besamogas"></button>
+    <div class="footer">
+        <img src="img/footer-left.png" alt="" class="footer__left">
+        <img src="img/footer-right.png" alt="" class="footer__right">
+        <img src="img/footer-bottom-mobile.png" alt="" class="footer__bottom_mobile">
+        <div class="container">
+            <div class="footer__wrap wow fadeIn" data-wow-duration="1s" data-wow-delay="1s">
+                <div class="footer__top">
+                    <a href="#" class="footer__logo">
+                        <img src="img/logo.svg" alt="">
+                    </a>
+                    <div class="footer__nav">
+                        <ul class="ul">
+                            <li class="li">
+                                <a href="#company" class="item">О компании</a>
+                            </li>
+                            <li class="li">
+                                <a href="#services" class="item">Услуги и цены</a>
+                            </li>
+                            <li class="li">
+                                <a href="#card" class="item">Кейсы</a>
+                            </li>
+                            <li class="li">
+                                <a href="#contacts" class="item">Контакты</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer__bottom">
+                    <div class="left">
+                        <a href="#" class="text">Политика конфидециальности</a>
+                        <p class="copy">©2022 Retop</p>
+                    </div>
+                    <div class="center">
+                        <p class="text"><a href="mailto:mail@retop.pro" class="email">mail@retop.pro</a>  — электронная почта для обращений с вопросом о своих персональных данных, в том числе об их удалении</p>
+                    </div>
+                    <div class="right">
+                        <div>
+                            <a href="#" class="link">Создание сайтов</a>
+                            <a href="#" class="link">Продвижение сайтов</a>
+                        </div>
+                        <img src="img/kontur-logo.svg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="js/jquery.min.js"></script>
+    <script src="slick-1.8.1/slick/slick.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/SmoothScroll.js"></script>
+    <script>
+        $('.reviews__slider').slick({
+            infinite: true,
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            dots: false
+        });
+        if (window.innerWidth > 768) {
+            $('.clients__slider').slick({
+                infinite: true,
+                speed: 700,
+                slidesToShow: 1,
+                variableWidth: true,
+                autoplay: true,
+                autoplaySpeed: 2000,
+                dots: false,
+                arrows: true,
+            });
+            $('.we_offer__slider').slick({
+                infinite: true,
+                speed: 700,
+                slidesToShow: 1,
+                variableWidth: true,
+                autoplay: true,
+                autoplaySpeed: 2000,
+                dots: false,
+                arrows: true
+            });
+            $('.cases__slider').slick({
+                infinite: true,
+                speed: 700,
+                slidesToShow: 1,
+                variableWidth: true,
+                autoplay: true,
+                autoplaySpeed: 2000,
+                dots: false,
+                arrows: true
+            });
+        } else {
+            $('.clients__slider').slick({
+                infinite: true,
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                dots: false,
+                arrows: true
+            });
+            $('.we_offer__slider').slick({
+                infinite: true,
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                dots: false,
+                arrows: true
+            });
+            $('.cases__slider').slick({
+                infinite: true,
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                dots: false,
+                arrows: true
+            });
+        }
+    </script>
+</body>
+</html>
