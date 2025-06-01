@@ -63,12 +63,12 @@ if (window.innerWidth > 768) {
     });
 }
 $(window).scroll(function(){
-    if ( $(this).scrollTop() > 100) {
-        $('.besamogas').css({bottom : '20px'});
-        $('.header').addClass("fixed");
+    if ( $(this).scrollTop() > 50) {
+        $('.header').addClass("fixed")
+        // $('.besamogas').css({bottom : '20px'});
     } else {
-        $('.besamogas').css({bottom : '-100%'});
-        $('.header').removeClass("fixed");
+        $('.header').removeClass("fixed")
+        // $('.besamogas').css({bottom : '-100%'});
     }
 });
 $('.besamogas').on('click', function(){
